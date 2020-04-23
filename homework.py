@@ -49,5 +49,5 @@ text_values = list(new_text_list_dict.values()) #переменная типа l
 text_values.sort() #сортирую все элементы от меньшего к большему
 print(text_values[-5:]) #вывожу элементы от -5 до конца списка
 
-text_list_set = set(text_list) #делаю из списка множество (нет повторяющихся элементов).
+text_list_set = set(new_text_list) #делаю из списка множество (нет повторяющихся элементов).
 print(len(text_list_set)) #вывожу количество элементов в полученном множестве.
